@@ -1,71 +1,43 @@
-🚀 Web Application Showcase
+========================================================================
+🔴 POKÉDEX WEB APP
 
-Kumpulan aplikasi web mini interaktif yang dibuat menggunakan Vanilla JavaScript, HTML5, dan CSS3.
+A sleek, modern, and lightweight Pokédex web application built with
+Vanilla Web Technologies & PokéAPI.
 
-🧮 1. Multiplication App
+[ TECH STACK ]
 
-Aplikasi kuis matematika sederhana untuk melatih dan menguji kemampuan perkalian secara interaktif.
+• HTML5         : Semantic structure and search bar layout
+• CSS3          : Flexbox, CSS Grid, custom web fonts & styling
+• JavaScript    : DOM Manipulation, Event Listeners, Fetch API (ES6+)
+• PokéAPI       : RESTful API source for Pokémon dynamic data
 
-✨ Fitur Utama
+[ KEY FEATURES ]
 
-Pengacak Angka Otomatis: Menghasilkan dua angka acak secara otomatis untuk setiap soal perkalian.
+• 🔍 Search by ID       : Instantly search Pokémon by unique ID.
+• ⚡ Dynamic Fetching   : Real-time asynchronous data retrieval.
+• 🎨 Custom Styling     : Iconic Pokémon-style fonts and clean layout.
+• 🖼️️ Official Sprites  : Displays official sprite images & element types.
+• ⚠️ Error Handling     : User-friendly feedback for invalid queries.
 
-Sistem Skor:
+[ PROJECT STRUCTURE ]
 
-+1 poin untuk setiap jawaban yang benar.
+.
+├── Index_3.html         # Main HTML page
+├── styles_3.css        # Application styling & layout
+├── script_3.js         # Fetch logic & DOM manipulation
+└── svg/
+└── search_2_line.svg # Search icon asset
 
--1 poin untuk setiap jawaban yang salah.
+[ GETTING STARTED ]
 
-Validasi Input: Menampilkan pesan peringatan jika pengguna menekan tombol Submit tanpa mengisi jawaban.
+Clone the repository:
+git clone https://github.com/akunsete/Pokedex.git
 
-Tampilan Responsif: Layout rapi berposisi di tengah (centered) menggunakan CSS Flexbox.
+Open the directory:
+cd Pokedex
 
-🔴 2. Pokédex Web App
+Run the application:
+Open Index_3.html directly in your browser or run via Live Server.
 
-Aplikasi pencarian Pokédex interaktif yang mengambil data secara real-time dari PokéAPI berdasarkan ID Pokémon.
-
-✨ Fitur Utama
-
-Pencarian Berdasarkan ID: Cari Pokémon pilihan menggunakan nomor ID resmi.
-
-Integrasi PokéAPI: Mengambil nama, ID, elemen/tipe, dan gambar sprite Pokémon secara dinamis.
-
-Desain Kustom: Menggunakan font ikonik gaya Pokémon dan bilah pencarian modern.
-
-Penanganan Error: Menampilkan pesan peringatan jika ID yang dimasukkan tidak ditemukan.
-
-🛠️ Teknologi yang Digunakan
-
-HTML5: Struktur dan elemen markup halaman.
-
-CSS3: Layouting (Flexbox & CSS Grid), Custom Typography, dan Styling responsif.
-
-JavaScript (ES6+): Logika aplikasi, Fetch API, dan Manipulasi DOM.
-
-API Eksternal: PokéAPI
-
-📁 Struktur Proyek
-
-├── Multiplication-App/
-│   ├── Index.html
-│   ├── styles.css
-│   └── script.js
-│
-└── Pokedex-App/
-    ├── Index_2.html
-    ├── styles_2.css
-    ├── script_2.js
-    └── svg/
-        └── search_2_line.svg
-
-
-🎮 Cara Menjalankan
-
-Clone repositori ini ke komputer kamu:
-
-git clone https://github.com/username-kamu/nama-repo-kamu.git
-
-
-Buka folder proyek.
-
-Jalankan file Index.html atau Index_2.html langsung melalui browser pilihanmu (atau gunakan ekstensi Live Server di VS Code).
+========================================================================
+Crafted with ❤️ for Pokémon enthusiasts
